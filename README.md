@@ -8,5 +8,5 @@ Since I have very little knowledge of html and generally web development, any fe
 
 ## Contact
 
-Mail: [micha.birklbauer@gmail.com](mailto:micha.birklbauer@gmail.com)
-Telegram: [micha_birklbauer](t.me/micha_birklbauer)
+- Mail: [micha.birklbauer@gmail.com](mailto:micha.birklbauer@gmail.com)
+- Telegram: [micha_birklbauer](t.me/micha_birklbauer)
