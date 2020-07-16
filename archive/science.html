@@ -147,6 +147,48 @@
             <br><br>
             <b>German:</b> <a href="mailto:micha.birklbauer@gmail.com">Request the paper!</a> <br>
           </p>
+          <h2 class="section-heading">Gene Promoter Prediction Using Machine Learning</h2>
+          <a>
+            <img class="img-fluid" src="science/kebaps.jpg" alt="">
+          </a>
+          <span class="caption text-muted">Cover: Kernel Based Gene Promoter Prediction Using Support Vector Machines</span>
+          <p>
+            <b>Abstract:</b> <br>
+            This paper describes how promoter genes can be effectively and efficiently predicted
+            given data in the form of a nucleic acid sequence. This is of utter significance as the
+            number of uncurated, daily submitted sequences (to biological databases) increased
+            exponentially over the last few years. Predicting promoter (and
+            other) genes could automate the process of curating sequences and therefore decrease
+            the number of uncurated submissions. In my approach I trained a support vector
+            machine, a kind of machine learning model, on sequences with labels referring to their
+            status of being/containing a promoter gene or not. Furthermore I used several different
+            kernels to calculate sequence similarities. The goal was to optimize the hyperparameter
+            settings to maximize the number of correctly predicted sequences in a five-fold cross
+            validation setup. Ultimately this was achieved using a mismatch kernel with
+            hyperparameters k=8 and m=2 for calculating sequence similarity and pattern finding.
+            For realizing the model the support vector machine was using the “LiblineaR” kernel
+            package and applied a costfactor of 5. This altogether yielded a result of 65 out of 100
+            correctly predicted genes. To further improve the encountered error I used an ensemble
+            method called voting to combine three different support vector machines, which further
+            improved the result. Additionally to the mentioned mismatch kernel support vector
+            machine, one with a spectrum kernel with k=4 was used. As the third contributing
+            support vector machine again a mismatch kernel was used, this time however with
+            hyperparameters set to k=6, m=1 and a costfactor of 10. All three support vector
+            machines achieved similar results as standalones, each raising errors of about 35% in
+            the standard five-fold cross validation setup. The vote mechanism was carried out using
+            a simple majority vote, meaning that the winner takes all and no additional information
+            (e.g. reliability) is returned by the algorithm. This setup proved to be better than using
+            only one support vector machine and predicted 74 out of 100 genes correctly, decreasing
+            the observed error by 9%. The final results showed that promoter genes can only be
+            successfully predicted by support vector machines up to a certain point. Unfortunately
+            74% accuracy is definitely not meeting industrial- and scientific standards when it
+            comes to curating sequences, however it still can be a major assistance to manual
+            curation.
+            <br><br>
+            <b>DISCLAIMER:</b> This paper was a project for improving scientific english, not all stated numbers might be correct!
+            <br><br>
+            <b>English:</b> <a href="mailto:micha.birklbauer@gmail.com">Request the paper!</a> <br>
+          </p>
           <h2 class="section-heading">Imputation Of Missing Values In Clinical Data</h2>
           <a>
             <img class="img-fluid" src="science/impute.jpg" alt="">
@@ -154,21 +196,23 @@
           <span class="caption text-muted">Cover: Imputation Of Missing Values In Clinical Data</span>
           <p>
             <b>Abstract:</b> <br>
-            <b><i>Motivation:</i></b> Imputation of missing data is a crucial step in data analysis since many statistical methods require complete datasets. In that regard MissForest imputation is a powerful tool that seems to outperform
-            most other imputation approaches. My analysis evaluates how good imputation using MissForest is compared to other methods like imputation by Multivariate Imputation by Chained Equations (MICE), Restricted Boltzmann Machines (RBM)
-            or the standard strawman (mean) imputation in a clinical dataset that is used to predict the mortality of patients after heart valve surgery. <br>
-            <b><i>Result:</i></b> Models which were trained on datasets imputed by MissForest, MICE or RBM managed to outperform those which used standard strawman imputation in most of the cases. The best values for area under the ROC curve
-            and balanced accuracy were achieved using MICE and RBM respectively while strawman imputation still yielded the best result in terms of accuracy. However, the differences were rather small and significant in only 5/66
-            of the tested cases. The expectation that MissForest, MICE and RBM would overall significantly outperform strawman imputation could therefore not be met. Without a complete reference dataset the true imputation error
-            cannot be calculated and the reason for this outcome can only be speculated upon. Two of the probable causes would be that the missing values are not significant for prediction and that data is not missing at random
-            which negatively affects imputation by MissForest, MICE and RBM.
+            Motivation: Imputation of missing data is a crucial step in data analysis since many statistical
+            methods require complete datasets. In that regard MissForest is a powerful imputation method that
+            seems to outperform most other imputation approaches. My analysis evaluates how good
+            imputation using MissForest is compared to standard strawman (mean) imputation in a clinical
+            dataset that is used to predict the mortality of patients after heart valve surgery. <br>
+            Result: The models that were trained on the MissForest imputed dataset outperformed the models
+            that were imputed by strawman imputation in terms of area under the ROC curve and balanced
+            accuracy but there was no improvement when it comes to accuracy. An analysis of means however
+            showed that there was no significant improvement in prediction accuracy overall in our models.
+            The reason for that might be that the data in our clinical dataset might not be missing at random.
             <br><br>
             <b>English:</b> <a href="mailto:micha.birklbauer@gmail.com">Request the paper!</a> <br>
           </p>
           <hr>
           <!-- Pager -->
           <div class="clearfix">
-            <a class="btn btn-primary float-left" href="girlfriend.html">&larr; Newer Post</a>
+            <a class="btn btn-primary float-left" href="partei.html">&larr; Newer Post</a>
             <a class="btn btn-primary float-right" href="book.html">Older Post &rarr; </a>
           </div>
         </div>
