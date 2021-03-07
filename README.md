@@ -1,10 +1,8 @@
-# t0xic-m.github.io/web
+# michabirklbauer.github.io
 
-This is the repository for my website/blog found at [https://t0xic-m.github.io/web/](https://t0xic-m.github.io/web/).
+This is the repository for my website/blog found at [https://michabirklbauer.github.io](https://michabirklbauer.github.io/).
 
-I created it using the template from [StartBootstrap](https://github.com/BlackrockDigital/startbootstrap-clean-blog).
-
-Since I have very little knowledge of html and generally web development, any feedback is very much appreciated, even if it is just spelling errors!
+Created using the template from [StartBootstrap](https://github.com/BlackrockDigital/startbootstrap-clean-blog).
 
 ## Contact
 
