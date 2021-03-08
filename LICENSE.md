@@ -1,6 +1,6 @@
 The MIT License (MIT)
 
-Copyright (c) 2021 Micha Johannes Birklbauer
+Copyright (c) 2021 Micha Johannes Birklbauer  
 Copyright (c) 2013-2018 Blackrock Digital LLC
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
