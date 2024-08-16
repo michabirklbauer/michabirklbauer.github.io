@@ -1,6 +1,6 @@
 # michabirklbauer.github.io
 
-This is the repository for my website/blog found at [https://michabirklbauer.github.io](https://michabirklbauer.github.io/).
+This is the repository for my old website/blog. Now points to [michabirklbauer.me](https://github.com/michabirklbauer/michabirklbauer.me).
 
 Created using the template from [StartBootstrap](https://github.com/BlackrockDigital/startbootstrap-clean-blog).
 
