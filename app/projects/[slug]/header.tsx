@@ -1,5 +1,5 @@
 "use client";
-import { ArrowLeft, Github, Twitter, Instagram, Facebook } from "lucide-react";
+import { ArrowLeft, Instagram, Github, BookOpen, Mail } from "lucide-react";
 import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
 
@@ -61,26 +61,26 @@ export const Header: React.FC<Props> = ({ project }) => {
 								} `}
 							/>
 						</Link>
-						<Link target="_blank" href="https://www.facebook.com/therealmichabirklbauer">
-							<Facebook
-								className={`w-6 h-6 duration-200 hover:font-medium ${
-									isIntersecting
-										? " text-zinc-400 hover:text-zinc-100"
-										: "text-zinc-600 hover:text-zinc-900"
-								} `}
-							/>
-						</Link>
-						<Link target="_blank" href="https://twitter.com/MichaBirklbauer">
-							<Twitter
-								className={`w-6 h-6 duration-200 hover:font-medium ${
-									isIntersecting
-										? " text-zinc-400 hover:text-zinc-100"
-										: "text-zinc-600 hover:text-zinc-900"
-								} `}
-							/>
-						</Link>
 						<Link target="_blank" href="https://github.com/michabirklbauer">
 							<Github
+								className={`w-6 h-6 duration-200 hover:font-medium ${
+									isIntersecting
+										? " text-zinc-400 hover:text-zinc-100"
+										: "text-zinc-600 hover:text-zinc-900"
+								} `}
+							/>
+            </Link>
+            <Link target="_blank" href="https://orcid.org/0009-0005-1051-179X">
+							<BookOpen
+								className={`w-6 h-6 duration-200 hover:font-medium ${
+									isIntersecting
+										? " text-zinc-400 hover:text-zinc-100"
+										: "text-zinc-600 hover:text-zinc-900"
+								} `}
+							/>
+						</Link>
+						<Link target="_blank" href="mailto:micha.birklbauer@pm.me">
+							<Mail
 								className={`w-6 h-6 duration-200 hover:font-medium ${
 									isIntersecting
 										? " text-zinc-400 hover:text-zinc-100"

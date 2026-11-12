@@ -1,45 +1,27 @@
 "use client";
-import { Github, Mail, Twitter, Instagram, Facebook, Youtube } from "lucide-react";
+import { Github, Mail, FolderGit2 } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 
 const socials = [
 	{
-		icon: <Twitter size={20} />,
-		href: "https://twitter.com/MichaBirklbauer",
-		label: "Twitter",
-		handle: "@MichaBirklbauer",
-	},
-	{
 		icon: <Mail size={20} />,
-		href: "mailto:micha.birklbauer@gmail.com",
+		href: "mailto:micha.birklbauer@pm.me",
 		label: "Email",
-		handle: "micha.birklbauer@gmail.com",
+		handle: "micha.birklbauer@pm.me",
+  },
+  {
+		icon: <FolderGit2 size={20} />,
+		href: "https://codeberg.org/michabirklbauer",
+		label: "Codeberg",
+		handle: "michabirklbauer",
 	},
 	{
 		icon: <Github size={20} />,
 		href: "https://github.com/michabirklbauer",
 		label: "Github",
 		handle: "michabirklbauer",
-	},
-	{
-		icon: <Facebook size={20} />,
-		href: "https://www.facebook.com/therealmichabirklbauer",
-		label: "Facebook",
-		handle: "therealmichabirklbauer",
-	},
-	{
-		icon: <Instagram size={20} />,
-		href: "https://www.instagram.com/micha_birklbauer/",
-		label: "Instagram",
-		handle: "micha_birklbauer",
-	},
-	{
-		icon: <Youtube size={20} />,
-		href: "https://www.youtube.com/user/Midnigh7Wesker",
-		label: "Youtube",
-		handle: "Midnigh7Wesker",
 	},
 ];
 
