@@ -9,9 +9,9 @@ import { Eye } from "lucide-react";
 export const revalidate = 60;
 export default async function PublicationPage() {
 
-  const featured = allPublications.find((publication) => publication.slug === "pub1")!;
-  const top2 = allPublications.find((publication) => publication.slug === "pub2")!;
-  const top3 = allPublications.find((publication) => publication.slug === "pub3")!;
+  const featured = allPublications.find((publication) => publication.slug === "msannika3")!;
+  const top2 = allPublications.find((publication) => publication.slug === "pyxlms")!;
+  const top3 = allPublications.find((publication) => publication.slug === "msannika2")!;
   const sorted = allPublications
     .filter((b) => b.published)
     .filter(
