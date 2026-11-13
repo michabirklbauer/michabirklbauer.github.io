@@ -1,0 +1,32 @@
+---
+title: READ
+description: READ is a python-based tool to orchestrate TMTpro-18plex quantification for [single cell] DIA and DDA searches with Chimerys, Spectronaut, and DIA-NN.
+date: "2026-09-18"
+url: https://hgb-bin-proteomics.github.io/READ/
+published: true
+repository: hgb-bin-proteomics/READ
+---
+
+![READ Logo](/projects/read/logo.png)
+
+<div style={{ textAlign: 'center' }}>
+    _READ logo designed by Dasha Pototska and Micha Birklbauer._
+</div>
+
+<div style={{ textAlign: 'justify' }}>
+
+**READ** is a python-based tool to orchestrate
+TMTpro-18plex quantification for \[single cell\] DIA and DDA searches with
+Chimerys, Spectronaut, and DIA-NN.
+
+**READ** supports Thermo RAW files via ThermoRawFileParser or mzML files, maps
+identified precursors to their corresponding MS1 and MS2 spectra, and then quantifies PSMs and/or proteins. Quantification is done either natively, via OpenMS (recommended), or
+the TMT Resolution GUI Tool. Quantification is additionally quality controlled by optionally several filters including precursor co-isolation purity, reporter ion resolution,
+minimum reporter signal, and minimum reporter signal-to-noise. Filtering behavior is easily controlled via a human-readable `.toml` configuration file.
+
+**READ** can easily be installed via [PyPI](https://pypi.org/p/IMP-READ/) and run via the command line. We also provide executables with a graphical user interface for Microsoft Windows
+which can be downloaded [here](https://github.com/hgb-bin-proteomics/READ/releases). In-depth information on how to install and run **READ** can be found at [hgb-bin-proteomics.github.io/READ](https://hgb-bin-proteomics.github.io/READ/).
+
+You can read the pre-print for READ here: [bioRxiv](https://doi.org/10.64898/2026.10.20.760427)
+
+</div>

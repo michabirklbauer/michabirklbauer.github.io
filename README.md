@@ -1,6 +1,6 @@
-# michabirklbauer.me
+# michabirklbauer.github.io
 
-Personal website based on the design by [chronark](https://github.com/chronark/chronark.com).
+Personal website and blog.
 
 ## Contact
 
